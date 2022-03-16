@@ -1,0 +1,107 @@
+@import "reset.css";
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --Boxcolor: #dfdfdf;
+
+}
+
+html,
+body {
+    height: 100%;
+    
+}
+body {
+    display: flex;
+}
+
+
+.votetitle {
+    font-family: 'GmarketSansLight'; 
+    font-size: 80px;
+    padding: 30px;
+    left: 500px;
+    justify-content: center;
+    display: flex;
+}
+.bigBox {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+.Box {
+    width: 400px; 
+    height: 670px;
+    background-color:var(--Boxcolor);
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.name {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-size: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.song1,
+.song2,
+.song3 {
+    font-family: 'GmarketSansLight';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.song1:hover,
+.song2:hover,
+.song3:hover { border-bottom: 1px solid black;
+
+}
+.bestSong {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+.member {
+    font-family: 'GmarketSansLight';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.voteBox{
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #555555;
+    display: flex;
+    justify-content: center;
+    margin: 20px 75px 0px;
+}
+.button{
+    font-family: 'GmarketSansLight';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.voteBox:hover {
+    color: #dfdfdf;
+}

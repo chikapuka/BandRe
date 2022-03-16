@@ -1,0 +1,55 @@
+@import "reset.css";
+
+
+@font-face {
+    font-family: 'LeferiPoint-WhiteObliqueA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+}
+.maintext {
+    font-family: 'RixYeoljeongdo_Regular';
+    font-size: 100px;
+    color: aliceblue;
+}
+.subtext {
+    font-family: 'LeferiPoint-WhiteObliqueA';
+    font-size: 80px;
+    color: aliceblue;
+}
+.first {
+    padding: 0%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.vote{
+    font-family: 'GmarketSansLight';
+    bottom: 100px;
+    position: fixed;
+    left: 600px;
+    color: aliceblue;
+    font-size: 100px;
+    border-bottom: 3px solid white;
+    padding: 0px;
+}
+.vote:hover{
+    background-color: black;
+}
